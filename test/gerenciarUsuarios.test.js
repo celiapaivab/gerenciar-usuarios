@@ -11,6 +11,7 @@ describe('Testar as funções de Gestão de Usuários', () => {
 
     // Verificar o novo nome na lista de usuários
     expect(lista).to.contain('Julio');
+    expect(lista.at(-1)).to.equal('Julio');
 
   });
 });
